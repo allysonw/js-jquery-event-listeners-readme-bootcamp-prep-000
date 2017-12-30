@@ -32,9 +32,6 @@ function submitIt() {
 
 $(document).ready(function(){
 
-frameIt();
-getIt();
-pressIt();
-submitIt();
+
 
 });
