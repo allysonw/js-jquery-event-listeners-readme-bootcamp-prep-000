@@ -12,6 +12,14 @@ function frameIt() {
   return;
 }
 
+function pressIt() {
+  $('#typing').on("keydown", function (key) {
+    if (key.which === 13) {
+      alert ("You have pressed G");
+    }
+  })
+  return;
+}
 
 $(document).ready(function(){
 
